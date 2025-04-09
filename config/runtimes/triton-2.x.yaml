@@ -78,7 +78,7 @@ spec:
           memory: 1Gi
         limits:
           cpu: "5"
-          memory: 1Gi
+          memory: 5Gi
       livenessProbe:
         # the server is listening only on 127.0.0.1, so an httpGet probe sent
         # from the kublet running on the node cannot connect to the server

@@ -51,6 +51,7 @@ storageHelperResources:
 serviceAccountName: ""
 metrics:
   enabled: true
+grpcMaxMessageSizeBytes: 209715200
 builtInServerTypes:
   - triton
   - mlserver
