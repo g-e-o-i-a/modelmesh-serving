@@ -22,8 +22,8 @@ modelMeshResources:
     cpu: "300m"
     memory: "448Mi"
   limits:
-    cpu: "3"
-    memory: "448Mi"
+    cpu: "5"
+    memory: "5Gi"
 restProxy:
   enabled: true
   port: 8008
